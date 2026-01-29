@@ -104,6 +104,8 @@ Summary:
 {ram_info}
 
 {ip_info}
+
+{temp_info}
 ```"""
         
         await update.message.reply_text(message, parse_mode='Markdown')
