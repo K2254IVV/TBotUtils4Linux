@@ -7,7 +7,7 @@
       показывает Статус Сервера и uptime info
       в 2 команды в боте и в 2 клика по установке
 
-<img src="StatusBot/resources/icon/logo.svg" width="100" align="left" style="margin-right: 15px;">
+<img src="StatusBot/resources/icon/logo.svg" width="50" align="left" style="margin-right: 15px;">
 
 # StatusBot - Status Linux TelegramBot based on TBotAPI
 
