@@ -1,1 +1,2 @@
-![](./resources/icon/logo.svg) StatusBot - Status Linux TelegramBot based on TBotAPI
+![](./resources/icon/logo.svg)
+# StatusBot - Status Linux TelegramBot based on TBotAPI
