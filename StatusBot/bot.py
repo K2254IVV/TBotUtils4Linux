@@ -69,6 +69,7 @@ async def status_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         ram_info = run_command("free -h")
         ip_info = run_command("ip -4 -o addr show | awk '{split($4, a, \"/\"); print \"📝 \" $2 \": \" a[1]}'")
         os_info = run_command(". /etc/os-release && echo \"📝 $NAME $VERSION\"")
+        temp_info = run_command("sensors | grep -E 'Adapter|temp1|Composite' | grep -v 'high\\|low\\|crit'")
         
         # Format message with Markdown
         message = f"""🏴‍☠️ {hostname}:{username} {product_name} 🏴‍☠️ Status:
@@ -86,6 +87,11 @@ async def status_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 🌐 IPv4 addresses:
 ```IPlist
 {ip_info}
+```
+
+🔥 Temperature Information:
+```tempinfo
+{temp_info}
 ```
 
 Summary:
