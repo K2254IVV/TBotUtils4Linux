@@ -1,4 +1,4 @@
-<img src="StatusBot/resources/icon/logo.svg" width="200" align="left" style="margin-right: 30px;">
+<img src="logo.svg" width="200" align="left" style="margin-right: 30px;">
 
 # StatusBot - Status Linux TelegramBot based on TBotAPI
 
