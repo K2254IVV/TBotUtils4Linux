@@ -1,3 +1,5 @@
+<img src="resources/icon/logo.svg" width="100" align="left" style="margin-right: 15px;">
+
 # TBotUtils4Linux
 Утилиты для Линукс на базе Telegram Bot API:
  - StatusBot
